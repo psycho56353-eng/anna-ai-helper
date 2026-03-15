@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Anna University IT Pass Helper</title>
+
+<style>
+
+body{
+font-family:Arial;
+background:#eef2f7;
+text-align:center;
+}
+
+h1{
+color:#003366;
+}
+
+button{
+padding:10px;
+margin:10px;
+background:#0077cc;
+color:white;
+border:none;
+border-radius:6px;
+cursor:pointer;
+}
+
+.box{
+background:white;
+margin:20px auto;
+padding:20px;
+width:300px;
+border-radius:10px;
+box-shadow:0px 0px 10px gray;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>Anna University IT Exam Pass Helper</h1>
+
+<p>Select Semester</p>
+
+<button onclick="sem5()">Semester 5</button>
+<button onclick="sem6()">Semester 6</button>
+<button onclick="sem7()">Semester 7</button>
+<button onclick="sem8()">Semester 8</button>
+
+<div id="content"></div>
+
+<script>
+
+function sem5(){
+
+document.getElementById("content").innerHTML=`
+
+<div class="box">
+
+<h2>Semester 5</h2>
+
+<p><b>Computer Networks</b></p>
+OSI Model<br>
+TCP vs UDP<br>
+DNS Working<br>
+Routing Algorithms<br>
+
+<p><b>Operating System</b></p>
+Process Scheduling<br>
+Deadlock<br>
+Banker Algorithm<br>
+Paging<br>
+
+<p><b>Software Engineering</b></p>
+SDLC Models<br>
+Waterfall Model<br>
+Agile Model<br>
+Software Testing<br>
+
+</div>
+
+`
+
+}
+
+function sem6(){
+
+document.getElementById("content").innerHTML=`
+
+<div class="box">
+
+<h2>Semester 6</h2>
+
+<p><b>Artificial Intelligence</b></p>
+Search Algorithms<br>
+Knowledge Representation<br>
+Machine Learning Basics<br>
+
+<p><b>Cloud Computing</b></p>
+Cloud Architecture<br>
+Virtualization<br>
+Service Models<br>
+
+<p><b>Internet Programming</b></p>
+HTML Structure<br>
+HTTP Protocol<br>
+JavaScript Basics<br>
+
+</div>
+
+`
+
+}
+
+function sem7(){
+
+document.getElementById("content").innerHTML=`
+
+<div class="box">
+
+<h2>Semester 7</h2>
+
+<p><b>Cyber Security</b></p>
+Network Security<br>
+Cryptography<br>
+Malware Types<br>
+
+<p><b>Data Mining</b></p>
+Classification<br>
+Clustering<br>
+Association Rules<br>
+
+</div>
+
+`
+
+}
+
+function sem8(){
+
+document.getElementById("content").innerHTML=`
+
+<div class="box">
+
+<h2>Semester 8</h2>
+
+Project Work<br>
+Project Viva Preparation<br>
+
+</div>
+
+`
+
+}
+
+</script>
+
+</body>
+
+</html>
